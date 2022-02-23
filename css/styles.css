@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+#title{
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+body{
+    font-family: 'Urbanist';
+}
+h1{
+    font-family: 'Satisfy';
+    font-size: 5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    font-size: 1.6rem;
+}
+.navbar-brand{
+    letter-spacing: 4px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#apple-button{
+    margin-right: 1rem;
+}
+
+#photo {
+    transform:rotate(30deg);
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -moz-transform:rotate(30deg); /* Firefox */
+    -webkit-transform:rotate(30deg); /* Safari and Chrome */
+    -o-transform:rotate(30deg); /* Opera */
+    overflow: hidden;
+}
