@@ -1,8 +1,9 @@
 #title{
     background-color: #ff4c68;
 }
-.container-fluid{
-    padding: 3% 15%;
+#title .container-fluid{
+    padding: 5%;
+    height: 60%;
 }
 body{
     font-family: 'Urbanist';
@@ -10,8 +11,28 @@ body{
 h1{
     font-family: 'Satisfy';
     font-size: 5rem;
-    line-height: 1.5;
+    line-height: 1.2;
     font-weight: bold;
+    text-align: center;
+}
+#features p{
+    color: rgb(165, 165, 165);
+}
+
+#features i{
+    color: #ef8172;
+}
+
+#features i:hover{
+    color: #ff4c68;
+}
+h3{
+    font-family:'Quicksand';
+    font-weight: bold;
+}
+div#download-buttons{
+    z-index: 1;
+    justify-content:center;
 }
 
 .navbar-nav{
@@ -22,16 +43,46 @@ h1{
     font-size: 3rem;
     font-weight: bold;
 }
-
-#apple-button{
-    margin-right: 1rem;
+#page-body{
+    padding-top: 5%;
 }
 
-#photo {
-    transform:rotate(30deg);
-    -ms-transform:rotate(30deg); /* IE 9 */
-    -moz-transform:rotate(30deg); /* Firefox */
-    -webkit-transform:rotate(30deg); /* Safari and Chrome */
-    -o-transform:rotate(30deg); /* Opera */
-    overflow: hidden;
+#android-button{
+    margin-right: 1rem;
+}
+#apple-button{
+    z-index: 1;
+}
+
+#android-button, #apple-button{
+    font-size: 30px;
+}
+
+img.iphone-image{
+    z-index: 0;
+    transform:rotate(25deg);
+    -ms-transform:rotate(25deg); /* IE 9 */
+    -moz-transform:rotate(25deg); /* Firefox */
+    -webkit-transform:rotate(25deg); /* Safari and Chrome */
+    -o-transform:rotate(25deg); /* Opera */
+}
+
+#testimonials{
+    padding: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media(max-width:991px){
+    #android-button, #apple-button{
+        height: 7rem;
+        width: 14rem;
+        font-size: 30px;
+    }
+}
+
+@media(min-width:992px){
+    #title .container-fluid{
+        height: 700px;
+    }
 }
