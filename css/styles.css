@@ -1,39 +1,36 @@
-#title{
-    background-color: #ff4c68;
+/* Media Queries  */
+
+@media(max-width:991px){
+    #title .container-fluid{
+        height: 700px;
+    }
+
+    #android-button, #apple-button{
+        height: 7rem;
+        width: 14rem;
+        font-size: 30px;
+    }
+
 }
-#title .container-fluid{
-    padding: 5%;
-    height: 60%;
+@media(min-width:992px){
+    #title .container-fluid{
+        padding-bottom: -30px;
+        height: auto;
+    }
 }
+
+/* Main body  */
+
 body{
+    font-size: 20px;
     font-family: 'Urbanist';
 }
-h1{
-    font-family: 'Satisfy';
-    font-size: 5rem;
-    line-height: 1.2;
-    font-weight: bold;
-    text-align: center;
-}
-#features p{
-    color: rgb(165, 165, 165);
+#page-body{
+    padding: 5% 0 0 0;
+    overflow: hidden;
 }
 
-#features i{
-    color: #ef8172;
-}
-
-#features i:hover{
-    color: #ff4c68;
-}
-h3{
-    font-family:'Quicksand';
-    font-weight: bold;
-}
-div#download-buttons{
-    z-index: 1;
-    justify-content:center;
-}
+/* Navbar */
 
 .navbar-nav{
     font-size: 1.6rem;
@@ -43,11 +40,36 @@ div#download-buttons{
     font-size: 3rem;
     font-weight: bold;
 }
-#page-body{
-    padding-top: 5%;
+
+/*Title */
+
+#title .container-fluid{
+    background-color: #ff4c68;
+    padding:5%;
+    overflow: hidden;
 }
 
+h1{
+    font-size: 5rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#download-buttons{
+    justify-content: center;
+}
+
+#download-buttons button{
+    font-weight: bold;
+    z-index: 1;
+    height: 7rem;
+    width:40%;
+}
+
+
 #android-button{
+    border: #FFFFFF 4px solid;
+    border-radius: 0.25em;
     margin-right: 1rem;
 }
 #apple-button{
@@ -67,22 +89,70 @@ img.iphone-image{
     -o-transform:rotate(25deg); /* Opera */
 }
 
-#testimonials{
-    padding: 5%;
-    text-align: center;
+/* Features */
+
+#features p{
+    color: rgb(165, 165, 165);
+}
+
+#features i{
+    color: #ef8172;
+}
+
+#features i:hover{
+    color: #ff4c68;
+}
+
+#features h3{
+    font-family:'Quicksand';
     font-weight: bold;
 }
 
-@media(max-width:991px){
-    #android-button, #apple-button{
-        height: 7rem;
-        width: 14rem;
-        font-size: 30px;
-    }
+/* Testimonials */
+
+.carousel-item{
+    padding: 7% 5% 7% 5%;
 }
 
-@media(min-width:992px){
-    #title .container-fluid{
-        height: 700px;
-    }
+#testimonials{
+    text-align: center;
+    font-weight: bold;
+    background-color: #ef8172;
+    color: #FFFFFF;
 }
+
+#testimonials img{
+    border-radius: 1rem;
+    border: #FFFFFF 4px solid;
+    margin: 0 1rem 0;
+    width: 20%;
+}
+
+#testimonials h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Press */
+
+#press{
+    margin: 0;
+    background-color: #ef8172;
+    max-width: 100%;
+}
+
+#press-bg{
+    background-color: #FFFFFF;
+    border: 8px solid rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+#press div{
+    display: flex;
+    align-items: center;
+    height: 11rem;
+    justify-content: center;
+    margin: 3% 0 3% 0;
+}
+
