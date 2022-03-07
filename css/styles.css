@@ -2,7 +2,7 @@
 
 @media(max-width:991px){
     #title .container-fluid{
-        height: 700px;
+        height: auto;
     }
 
     #android-button, #apple-button{
@@ -14,7 +14,6 @@
 }
 @media(min-width:992px){
     #title .container-fluid{
-        padding-bottom: -30px;
         height: auto;
     }
 }
@@ -136,6 +135,10 @@ img.iphone-image{
 
 /* Press */
 
+#press img {
+    width: 100%;
+}
+
 #press{
     margin: 0;
     background-color: #ef8172;
@@ -143,6 +146,7 @@ img.iphone-image{
 }
 
 #press-bg{
+    width: 70%;
     background-color: #FFFFFF;
     border: 8px solid rgb(255, 255, 255);
     border-radius: 1rem;
@@ -156,3 +160,12 @@ img.iphone-image{
     margin: 3% 0 3% 0;
 }
 
+/* Pricing */
+
+.card{
+    padding: 0;
+}
+
+.card h2{
+    font-weight: bold;
+}
