@@ -46,37 +46,33 @@ body{
     background-color: #ff4c68;
     padding:5%;
     overflow: hidden;
-}
 
-h1{
-    font-size: 5rem;
-    line-height: 1.2;
-    text-align: center;
+    h1{
+        font-size: 5rem;
+        line-height: 1.2;
+        text-align: center;
+    }
 }
 
 #download-buttons{
     justify-content: center;
-}
 
-#download-buttons button{
-    font-weight: bold;
-    z-index: 1;
-    height: 7rem;
-    width:40%;
-}
+    button {
+        font-weight: bold;
+        z-index: 1;
+        height: 7rem;
+        width:40%;
+    }
 
-
-#android-button{
-    border: #FFFFFF 4px solid;
-    border-radius: 0.25em;
-    margin-right: 1rem;
-}
-#apple-button{
-    z-index: 1;
-}
-
-#android-button, #apple-button{
-    font-size: 30px;
+    #android-button{
+        border: #FFFFFF 4px solid;
+        border-radius: 0.25em;
+        margin-right: 1rem;
+    }
+    
+    #apple-button{
+        z-index: 1;
+    }
 }
 
 img.iphone-image{
@@ -90,21 +86,25 @@ img.iphone-image{
 
 /* Features */
 
-#features p{
-    color: rgb(165, 165, 165);
-}
+#features {
+    padding: 0 5% 0 5%;
 
-#features i{
-    color: #ef8172;
-}
+    p{
+        color: rgb(165, 165, 165);
+    }
 
-#features i:hover{
-    color: #ff4c68;
-}
+    i{
+        color: #ef8172;
+    }
 
-#features h3{
-    font-family:'Quicksand';
-    font-weight: bold;
+    i:hover{
+        color: #ff4c68;
+    }
+
+    h3{
+        font-family:'Quicksand';
+        font-weight: bold;
+    }
 }
 
 /* Testimonials */
@@ -118,31 +118,39 @@ img.iphone-image{
     font-weight: bold;
     background-color: #ef8172;
     color: #FFFFFF;
-}
 
-#testimonials img{
-    border-radius: 1rem;
-    border: #FFFFFF 4px solid;
-    margin: 0 1rem 0;
-    width: 20%;
-}
+    img{
+        border-radius: 1rem;
+        border: #FFFFFF 4px solid;
+        margin: 0 1rem 0;
+        width: 20%;
+    }
 
-#testimonials h2{
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
+    h2{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
 }
 
 /* Press */
-
-#press img {
-    width: 100%;
-}
 
 #press{
     margin: 0;
     background-color: #ef8172;
     max-width: 100%;
+
+    img {
+        width: 100%;
+    }
+
+    div{
+        display: flex;
+        align-items: center;
+        height: 11rem;
+        justify-content: center;
+        margin: 3% 0 3% 0;
+    }
 }
 
 #press-bg{
@@ -152,20 +160,13 @@ img.iphone-image{
     border-radius: 1rem;
 }
 
-#press div{
-    display: flex;
-    align-items: center;
-    height: 11rem;
-    justify-content: center;
-    margin: 3% 0 3% 0;
-}
-
 /* Pricing */
 
 .card{
     padding: 0;
+
+    h2{
+        font-weight: bold;
+    }
 }
 
-.card h2{
-    font-weight: bold;
-}

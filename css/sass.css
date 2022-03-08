@@ -1,0 +1,177 @@
+/* Media Queries  */
+@media (max-width: 991px) {
+  #title .container-fluid {
+    height: auto;
+  }
+  #android-button, #apple-button {
+    height: 7rem;
+    width: 14rem;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  #title .container-fluid {
+    height: auto;
+  }
+}
+
+/* Main body  */
+body {
+  font-size: 20px;
+  font-family: 'Urbanist';
+}
+
+#page-body {
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Navbar */
+.navbar-nav {
+  font-size: 1.6rem;
+}
+
+.navbar-brand {
+  letter-spacing: 4px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/*Title */
+#title .container-fluid {
+  background-color: #ff4c68;
+  padding: 5%;
+  overflow: hidden;
+}
+
+#title .container-fluid h1 {
+  font-size: 5rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#download-buttons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#download-buttons button {
+  font-weight: bold;
+  z-index: 1;
+  height: 7rem;
+  width: 40%;
+}
+
+#download-buttons #android-button {
+  border: #FFFFFF 4px solid;
+  border-radius: 0.25em;
+  margin-right: 1rem;
+}
+
+#download-buttons #apple-button {
+  z-index: 1;
+}
+
+img.iphone-image {
+  z-index: 0;
+  transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  /* IE 9 */
+  -moz-transform: rotate(25deg);
+  /* Firefox */
+  -webkit-transform: rotate(25deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(25deg);
+  /* Opera */
+}
+
+/* Features */
+#features {
+  padding: 0 5% 0 5%;
+}
+
+#features p {
+  color: #a5a5a5;
+}
+
+#features i {
+  color: #ef8172;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features h3 {
+  font-family: 'Quicksand';
+  font-weight: bold;
+}
+
+/* Testimonials */
+.carousel-item {
+  padding: 7% 5% 7% 5%;
+}
+
+#testimonials {
+  text-align: center;
+  font-weight: bold;
+  background-color: #ef8172;
+  color: #FFFFFF;
+}
+
+#testimonials img {
+  border-radius: 1rem;
+  border: #FFFFFF 4px solid;
+  margin: 0 1rem 0;
+  width: 20%;
+}
+
+#testimonials h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Press */
+#press {
+  margin: 0;
+  background-color: #ef8172;
+  max-width: 100%;
+}
+
+#press img {
+  width: 100%;
+}
+
+#press div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 11rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 3% 0 3% 0;
+}
+
+#press-bg {
+  width: 70%;
+  background-color: #FFFFFF;
+  border: 8px solid white;
+  border-radius: 1rem;
+}
+
+/* Pricing */
+.card {
+  padding: 0;
+}
+
+.card h2 {
+  font-weight: bold;
+}
+/*# sourceMappingURL=sass.css.map */
