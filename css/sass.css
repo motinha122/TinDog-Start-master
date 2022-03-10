@@ -18,6 +18,7 @@
 
 /* Main body  */
 body {
+  overflow-x: hidden;
   font-size: 20px;
   font-family: 'Urbanist';
 }
@@ -38,7 +39,7 @@ body {
   font-weight: bold;
 }
 
-/*Title */
+/* Title */
 #title .container-fluid {
   background-color: #ff4c68;
   padding: 5%;
@@ -55,10 +56,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 7% 0 7% 0;
 }
 
 #download-buttons button {
   font-weight: bold;
+  font-size: 30px;
   z-index: 1;
   height: 7rem;
   width: 40%;
@@ -67,7 +70,7 @@ body {
 #download-buttons #android-button {
   border: #FFFFFF 4px solid;
   border-radius: 0.25em;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 #download-buttons #apple-button {
@@ -75,6 +78,7 @@ body {
 }
 
 img.iphone-image {
+  position: absolute;
   z-index: 0;
   transform: rotate(25deg);
   -ms-transform: rotate(25deg);
@@ -89,11 +93,15 @@ img.iphone-image {
 
 /* Features */
 #features {
-  padding: 0 5% 0 5%;
+  position: relative;
+  z-index: 1;
+  padding: 3% 5% 3% 5%;
+  background-color: #FFFFFF;
 }
 
 #features p {
   color: #a5a5a5;
+  margin: 0;
 }
 
 #features i {
@@ -115,6 +123,7 @@ img.iphone-image {
 }
 
 #testimonials {
+  position: relative;
   text-align: center;
   font-weight: bold;
   background-color: #ef8172;
@@ -146,6 +155,7 @@ img.iphone-image {
 }
 
 #press div {
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,6 +179,7 @@ img.iphone-image {
 /* Pricing */
 #pricing {
   padding: 5%;
+  text-align: center;
 }
 
 #pricing h3 {
@@ -185,5 +196,59 @@ img.iphone-image {
 
 .card h2 {
   font-weight: bold;
+}
+
+/* Call to Action*/
+#cta {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ff4c68;
+  padding: 5%;
+  letter-spacing: 4px;
+}
+
+#cta h3 {
+  text-align: center;
+  font-size: 3rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+#cta button {
+  font-weight: bold;
+  font-size: 30px;
+  z-index: 1;
+  height: 7rem;
+  width: 40%;
+}
+
+#cta #buttons-cta {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#cta #android-button-2 {
+  margin-right: 2rem;
+}
+
+#footer {
+  padding: 5%;
+  text-align: center;
+}
+
+#footer p {
+  margin: 0;
+  color: #919191;
+  font-weight: bold;
+}
+
+#footer i {
+  padding: 10px 16px 10px 16px;
 }
 /*# sourceMappingURL=sass.css.map */

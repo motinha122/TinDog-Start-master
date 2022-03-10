@@ -28,6 +28,7 @@
     <!-- Nav Bar -->
 
     <div class="container-fluid pb-0">
+
       <nav class="navbar navbar-expand-lg navbar-dark pb-5">
         <a class="navbar-brand" href="#"><i class="fa-solid fa-fire"></i> TinDog</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -54,18 +55,20 @@
       <div class="row">
         <div class="col-lg-6" style="color: white;">
           <h1 class="text-lg-start">Meet new and interesting dogs nearby.</h1>
-          <div class="d-flex justify-content-lg-start py-4" id="download-buttons">
+          <div class="d-flex justify-content-lg-start" id="download-buttons">
             <button type="button" class="shadow btn btn-outline-light btn-lg" id="android-button"><i
                 class="fa-brands fa-android"></i><br>Download</button>
             <button type="button" class="shadow btn btn-dark btn-lg" id="apple-button"><i
                 class="fa-brands fa-apple"></i><br>Download</button>
           </div>
         </div>
-        <div class="col-lg-6 d-none d-lg-block">
+        <div class="col-lg-6 d-none d-lg-block" id="img-div">
           <img class="iphone-image" src="images/iphone6.png" alt="iphone-mockup">
         </div>
       </div>
+      
     </div>
+
   </section>
 
   <!--Page body-->
@@ -75,6 +78,7 @@
     <!-- Features -->
 
     <section class="row" id="features">
+
       <div class="col-md-4 text-center py-5">
         <i class="fa-solid fa-circle-check fa-4x pb-3" id="check-circle"></i>
         <h3>Easy to use.</h3>
@@ -90,11 +94,13 @@
         <h3>Guaranteed to work.</h3>
         <p>Find the love of your dog's life or your money back.</p>
       </div>
+
     </section>
 
     <!-- Testimonials -->
 
     <section id="testimonials">
+
       <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -194,7 +200,7 @@
             </div>
             <div class="d-grid card-body">
               <h2>$99 / mo</h2>
-              <p>Pirority Listing</p>
+              <p>Priority Listing</p>
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
               <p>Unlimited App Usage</p>
@@ -209,11 +215,16 @@
 
     <!-- Call to Action -->
 
-    <section id="cta">
+    <section class="d-grid" id="cta">
 
       <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+
+      <div class="d-flex" id="buttons-cta">
+        <button class="shadow btn btn-light btn-lg" type="button" id="android-button-2">Download <i
+          class="fa-brands fa-android"></i></button>
+        <button class="shadow btn btn-dark btn-lg" type="button" id="apple-button-2">Download <i
+          class="fa-brands fa-apple"></i></button>
+      </div>
 
     </section>
 
@@ -221,7 +232,12 @@
 
     <footer id="footer">
 
-      <p>© Copyright TinDog</p>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-solid fa-envelope"></i>
+
+      <p>© Copyright 2022 TinDog</p>
 
     </footer>
 
