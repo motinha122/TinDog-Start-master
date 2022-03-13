@@ -177,22 +177,37 @@ img.iphone-image{
     padding: 5%;
     text-align: center;
 
-    h3{
+    h3,h2{
+        letter-spacing: 4px;
         font-weight: bold;
     }
 
     #pricing-col{
         padding: 3%;
+        justify-content: center;
+
+        .card{
+            padding: 0;
+            height: 24rem;
+
+            #card-body{
+                flex-direction: column;
+            }
+
+            h3{
+                margin: 0;
+                font-size:32px;
+            }
+
+            button{
+                height:4rem;
+                margin-top: auto;
+            }
+        }
+        
     }
 }
 
-.card{
-    padding: 0;
-
-    h2{
-        font-weight: bold;
-    }
-}
 
 /* Call to Action*/
 
@@ -227,7 +242,6 @@ img.iphone-image{
     #android-button-2{
         margin-right:2rem;
     }
-
 }
 
 #footer{

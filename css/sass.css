@@ -182,20 +182,38 @@ img.iphone-image {
   text-align: center;
 }
 
-#pricing h3 {
+#pricing h3, #pricing h2 {
+  letter-spacing: 4px;
   font-weight: bold;
 }
 
 #pricing #pricing-col {
   padding: 3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.card {
+#pricing #pricing-col .card {
   padding: 0;
+  height: 24rem;
 }
 
-.card h2 {
-  font-weight: bold;
+#pricing #pricing-col .card #card-body {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#pricing #pricing-col .card h3 {
+  margin: 0;
+  font-size: 32px;
+}
+
+#pricing #pricing-col .card button {
+  height: 4rem;
+  margin-top: auto;
 }
 
 /* Call to Action*/
